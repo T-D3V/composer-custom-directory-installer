@@ -15,4 +15,12 @@ class PluginPlugin implements PluginInterface
     $this->installer = new PluginInstaller($io, $composer);
     $composer->getInstallationManager()->addInstaller($this->installer);
   }
+
+  public function deactivate (Composer $composer, IOInterface $io)
+  {
+  }
+
+  public function uninstall (Composer $composer, IOInterface $io)
+  {
+  }
 }
