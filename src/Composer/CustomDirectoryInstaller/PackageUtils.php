@@ -44,7 +44,7 @@ class PackageUtils
     return NULL;
   }
 
-  protected static function tmeplatePath($path, array $vars = array())
+  protected static function templatePath($path, array $vars = array())
   {
     if(strpos($path, '{') !== false){
       extract($vars);
