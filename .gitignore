@@ -1,0 +1,5 @@
+composer.phar
+dockerfile
+.devcontainer
+vendor
+composer.lock
