@@ -1,5 +1,5 @@
 {
-  "name": "t-d3v/composer-custom-directory-installer",
+  "name": "t-d3v/composer-custom-driectory-installer",
   "type": "composer-plugin",
   "minimum-stability": "stable",
   "require": {
