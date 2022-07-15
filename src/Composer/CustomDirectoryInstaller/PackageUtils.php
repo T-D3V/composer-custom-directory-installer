@@ -9,7 +9,7 @@ class PackageUtils
 {
   public static function getPackageInstallPath(PackageInterface $package, Composer $composer)
   {
-    $prettyName = $package->getPrettyNamer();
+    $prettyName = $package->getPrettyName();
     if (strpos($prettyName, '/') !== false)
     {
       list($vendor, $name) = explode('/', $prettyName);
